@@ -1,0 +1,12 @@
+{
+  "name": "mohit92.github.io",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "node build.mjs",
+    "preview": "node build.mjs && node build.mjs --serve"
+  },
+  "devDependencies": {
+    "marked": "12.0.2"
+  }
+}
